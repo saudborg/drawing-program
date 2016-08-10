@@ -15,4 +15,13 @@
 - run `mvn spring-boot:run`
 
 ### How to use
-When you see on your terminal `Welcome to Drawing Program.` just follow the instructions on console
+When you see on your terminal `Welcome to Drawing Program.` just follow the instructions on console 
+
+```
+Please select one option: 
+#	C w h 				- Create a new canvas of width w and height h.
+#	L x1 y1 x2 y2 			- Create a new line from (x1,y1) to (x2,y2).
+#	R x1 y1 x2 y2 			- Create a new rectangle, whose upper left corner is (x1,y1) and lower right corner is (x2,y2).
+#	B x y c 			- Fill the entire area connected to (x,y) with "colour"
+#	Q 				- Quit the program.
+```
